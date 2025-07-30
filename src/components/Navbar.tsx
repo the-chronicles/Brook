@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="p-5 items-center justify-center flex">
+    <nav className="px-28 py-5 container items-center justify-center flex">
       <div className="container mx-auto flex items-center justify-between">
         <div>
           <a href="/">
@@ -10,7 +10,7 @@ function Navbar() {
 
         <ul className="flex justify-center gap-7 items-center">
           <li>
-            <a href="/">Integrations</a>
+            <a href="/integration">Integrations</a>
           </li>
           <li>
             <a href="/pricing">Pricing</a>

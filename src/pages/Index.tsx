@@ -173,7 +173,7 @@ function Index() {
                 <div className="rounded-2xl border-2 border-black/50 bg-[#335CFF] px-5 py-8">
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-white/85">Disbursement</span>
-                    <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
+                    {/* <span className="h-2.5 w-2.5 rounded-full bg-red-400" /> */}
                   </div>
                   <p className="mt-3 text-3xl font-semibold text-white">
                     $22,000
@@ -225,13 +225,13 @@ function Index() {
                 <p className="mt-1 text-3xl font-semibold text-slate-900">$0</p>
                 <div className="mt-6 flex items-center justify-center gap-3">
                   <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-[11px] font-semibold  ring-1 ring-slate-200">
-                    bo
+                    
                   </span>
                   <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-[11px] font-semibold shadow-sm ring-1 ring-slate-200">
-                    citi
+                    
                   </span>
                   <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-[11px] font-semibold shadow-sm ring-1 ring-slate-200">
-                    s•
+                    
                   </span>
                 </div>
               </div>
@@ -251,7 +251,7 @@ function Index() {
             <div className="rounded-[22px] border border-slate-200 bg-[#F7F8F8] p-6 ">
               <div className="relative overflow-hidden rounded-[26px] bg-black p-4 pt-8 ring-1 ring-black/5">
                 {/* top dial */}
-                <div className="absolute -top-3 left-1/2 h-8 w-8 -translate-x-1/2 rounded-full bg-white ring-1 ring-black/10" />
+                {/* <div className="absolute -top-3 left-1/2 h-8 w-8 -translate-x-1/2 rounded-full bg-white ring-1 ring-black/10" /> */}
                 {/* inner orange panel */}
                 <div className="rounded-2xl border-2 border-black/50 bg-[#FF7A00] px-5 py-8 text-white">
                   <div className="flex items-center justify-between text-white/85">
@@ -259,7 +259,7 @@ function Index() {
                     <span className="text-sm">Due Today</span>
                   </div>
                   <p className="mt-3 text-3xl font-semibold">$122,000</p>
-                  <span className="absolute right-6 top-6 h-2.5 w-2.5 rounded-full bg-[#3b5bff]" />
+                  {/* <span className="absolute right-6 top-6 h-2.5 w-2.5 rounded-full bg-[#3b5bff]" /> */}
                 </div>
               </div>
             </div>
